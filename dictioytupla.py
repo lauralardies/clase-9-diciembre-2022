@@ -1,4 +1,4 @@
-from collections import defaultdict, OrderedDict
+from collections import defaultdict, OrderedDict, namedtuple
 
 # DICCIONARIOS POR DEFECTO
 d = defaultdict(float)
@@ -35,3 +35,12 @@ n2 = OrderedDict()
 n2['dos'] = 'two'
 n2['uno'] = 'one'
 print(n1 == n2)
+
+# TUPLAS CON NOMBRE
+Persona = namedtuple('Persona','nombre apellido edad')
+p = Persona(nombre="Laura",apellido="Rodríguez",edad=19)
+print(p)
+print(p.nombre)
+print(p.edad)
+print(p[0])
+print(p[-1])
