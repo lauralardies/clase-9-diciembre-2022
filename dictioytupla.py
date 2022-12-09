@@ -19,3 +19,19 @@ n['uno'] = 'one'
 n['dos'] = 'two'
 n['tres'] = 'three'
 print(n)
+
+n1 = {}
+n1['uno'] = 'one'
+n1['dos'] = 'two'
+n2 = {}
+n2['dos'] = 'two'
+n2['uno'] = 'one'
+print(n1 == n2)
+
+n1 = OrderedDict()
+n1['uno'] = 'one'
+n1['dos'] = 'two'
+n2 = OrderedDict()
+n2['dos'] = 'two'
+n2['uno'] = 'one'
+print(n1 == n2)
