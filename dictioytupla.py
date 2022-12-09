@@ -37,8 +37,8 @@ n2['uno'] = 'one'
 print(n1 == n2)
 
 # TUPLAS CON NOMBRE
-Persona = namedtuple('Persona','nombre apellido edad')
-p = Persona(nombre="Laura",apellido="Rodríguez",edad=19)
+Persona = namedtuple('Persona','nombre apellido edad sexo')
+p = Persona(nombre="Laura",apellido="Rodríguez",edad=19, sexo='F')
 print(p)
 print(p.nombre)
 print(p.edad)
