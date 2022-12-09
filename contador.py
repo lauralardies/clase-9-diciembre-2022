@@ -27,3 +27,4 @@ print(sum(c.values()))  # Suma total de elementos del contador
 print(list(c))          # Conversión a lista
 print(dict(c))          # Conversión a conjunto
 print(set(c))           # Conversión a conjunto
+
